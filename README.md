@@ -23,6 +23,8 @@ Run Selenium Grid 4
 
 run file testing.xml
 
+run src/test/java/org/example/cucumbertest/CucumberTest.java
+
 ALLURE REPORT: Open Terminal: allure serve allure-results
 
 ########## SELENIUM GRID 4##########
