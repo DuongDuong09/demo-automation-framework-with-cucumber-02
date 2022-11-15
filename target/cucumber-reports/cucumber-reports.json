@@ -1,0 +1,308 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Login success",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1995400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User navigates to orangeHRM",
+            "match": {
+              "location": "org.example.definition.LoginDefinition.user_navigates_to_orangeHRM()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1993200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "org.example.definition.Hook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 502422800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter username as \"mngr450923\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mngr450923\"",
+                  "offset": 20
+                }
+              ],
+              "location": "org.example.definition.LoginDefinition.i_enter_username_as(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "org.example.definition.Hook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 728747400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter password as \"qYgUhAq\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"qYgUhAq\"",
+                  "offset": 20
+                }
+              ],
+              "location": "org.example.definition.LoginDefinition.i_enter_password_as(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "org.example.definition.Hook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9545261900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Login button",
+            "match": {
+              "location": "org.example.definition.LoginDefinition.i_click_Login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "org.example.definition.Hook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Login should fail",
+            "match": {
+              "location": "org.example.definition.LoginDefinition.login_should_fail()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "org.example.definition.Hook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-13T17:28:20.810Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17344327000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.definition.Hook.beforeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Fill out Deposit form",
+        "description": "",
+        "id": "amount-deposit-form;fill-out-deposit-form",
+        "after": [
+          {
+            "result": {
+              "duration": 3699717600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.definition.Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000891300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "navigates to Deposit Page",
+            "match": {
+              "location": "org.example.definition.DepositDefinition.navigates_to_deposit_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "org.example.definition.Hook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 375601100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter account number as \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 26
+                }
+              ],
+              "location": "org.example.definition.DepositDefinition.i_enter_account_number_as(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "org.example.definition.Hook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 453280900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter amount number as \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100\"",
+                  "offset": 25
+                }
+              ],
+              "location": "org.example.definition.DepositDefinition.i_enter_amount_number_as(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "org.example.definition.Hook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 357293800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter description as \"number is invalid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"number is invalid\"",
+                  "offset": 23
+                }
+              ],
+              "location": "org.example.definition.DepositDefinition.i_enter_description_as(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "org.example.definition.Hook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1313291300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on Submit button on deposit page",
+            "match": {
+              "location": "org.example.definition.DepositDefinition.click_on_submit_button_on_deposit_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "org.example.definition.Hook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amount Deposit Form",
+    "description": "",
+    "id": "amount-deposit-form",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Deposit.feature",
+    "tags": []
+  }
+]

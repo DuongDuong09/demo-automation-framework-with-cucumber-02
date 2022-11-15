@@ -1,0 +1,38 @@
+[
+  {
+    "number": "1",
+    "name": "Duong",
+    "birthdate": "12/11/1999",
+    "address": "ACB",
+    "city": "HCM",
+    "state": "Alaska",
+    "pin": "123456",
+    "phone": "090800234",
+    "email": "duong123@gmail.com",
+    "password": "aswfffr455"
+  },
+  {
+    "number": "2",
+    "name": "Duy",
+    "birthdate": "11/11/1999",
+    "address": "AQW",
+    "city": "HCM",
+    "state": "Tesxas",
+    "pin": "123567",
+    "phone": "080776543",
+    "email": "duy456@gmail.com",
+    "password": "123fdhghgk"
+  },
+  {
+    "number": "3",
+    "name": "Tom Hank",
+    "birthdate": "11/11/1967",
+    "address": "ACWQ",
+    "city": "HCM",
+    "state": "LA",
+    "pin": "098654",
+    "phone": "080776543",
+    "email": "tom999@gmail.com",
+    "password": "qddfr33322"
+  }
+]
