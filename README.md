@@ -17,6 +17,8 @@ Base function in package : utils, helpers
 
 Read data from JSON
 
+Retry after test fail
+
 Run Selenium Grid 4
 
 ########## HOW TO RUN ###########
